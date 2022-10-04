@@ -1,0 +1,37 @@
+{
+  "sleep_time": 10,
+  "source_dir": {
+    "name": "Download",
+    "path": "/home/USER/Downloads"
+  },
+  "directories": [
+    {
+      "name": "images",
+      "path": "/home/USER/Pictures",
+      "create": true,
+      "padding_number": 3,
+      "extentions": ["jpg", "jpeg", "gif"]
+    },
+    {
+      "name": "documents",
+      "path": "/home/USER/Documents",
+      "create": true,
+      "padding_number": 3,
+      "extentions": ["doc", "docx", "txt", "pdf"]
+    },
+    {
+      "name": "audio",
+      "path": "/home/USER/Audio/",
+      "create": true,
+      "padding_number": 3,
+      "extentions": ["flac", "wav", "ogg", "mp3"]
+    },
+    {
+      "name": "videos",
+      "path": "/home/USER/Videos",
+      "create": true,
+      "padding_number": 3,
+      "extentions": ["mp4", "avi", "mpeg"]
+    }
+  ]
+}
